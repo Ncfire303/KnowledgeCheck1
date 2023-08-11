@@ -283,6 +283,14 @@ footer {
     text-align: center;
 }
 
+a[href^='mailto']::before {
+  content: 📩'';
+}
+
+a[href^='telephone']::before {
+  content: '☎️';
+}
+
 /* Images and Videos
 ========================================================================== */
 
